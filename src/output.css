@@ -2213,6 +2213,11 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity, 1));
+}
+
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity, 1));
@@ -2699,42 +2704,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:left-1 {
-    left: 0.25rem;
-  }
-
-  .md\:left-1\/2 {
-    left: 50%;
-  }
-
-  .md\:right-1\/2 {
-    right: 50%;
-  }
-
-  .md\:left-20 {
-    left: 5rem;
-  }
-
-  .md\:left-40 {
-    left: 10rem;
-  }
-
-  .md\:left-5 {
-    left: 1.25rem;
-  }
-
-  .md\:left-52 {
-    left: 13rem;
-  }
-
-  .md\:left-56 {
-    left: 14rem;
-  }
-
-  .md\:left-6 {
-    left: 1.5rem;
-  }
-
   .md\:left-60 {
     left: 15rem;
   }
