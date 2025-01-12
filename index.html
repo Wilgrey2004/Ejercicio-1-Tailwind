@@ -4,8 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
+    <title>Ejercicio-1-tailwindcss</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <section
+      class="relative flex flex-col w-full h-screen justify-center items-center bg-slate-200"
+    >
+      <div
+        class="rounded-full filter blur-lg mix-blend-multiply absolute border-2 md:left-60 left-0 w-[300px] h-[300px] bg-blue-400 animate-Mover"
+      ></div>
+
+      <div
+        class="rounded-full filter blur-lg mix-blend-multiply absolute border-2 md:right-60 right-0 w-[300px] h-[300px] bg-red-400 animate-Mover animation-delay-2000"
+      ></div>
+
+      <div
+        class="rounded-full filter blur-lg mix-blend-multiply absolute top-0 border-2 w-[300px] h-[300px] bg-green-400 animate-Mover animation-delay-4000"
+      ></div>
+
+      <div
+        class="rounded-full filter blur-lg mix-blend-multiply absolute border-2 border-red-400 bottom-0 w-[300px] h-[300px] bg-yellow-400 animate-Mover animation-delay-6000"
+      ></div>
+      <div
+        class="md:w-1/2 md:gap-5 hover:scale-105 z-10 transition shadow-2xl shadow-slate-800/20 bg-slate-300 m-10 p-5 border-2 rounded-lg border-transparent  flex flex-col items-center justify-center h-full"
+      >
+        <h1 class="text-xl font-bold">
+          Lorem <span class="text-blue-400">ipsum dolor.</span>
+        </h1>
+        <p class="text-center text-sm md:text-xl">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+          architecto a fugit ipsa pariatur omnis! Minima dolore labore harum
+          tempora reiciendis exercitationem optio porro laborum enim maxime
+          odit, ad adipisci voluptatum quis ducimus fuga magnam quod natus hic
+          iure ratione sit! Quidem eligendi, rerum delectus beatae dolorum
+          aliquid tempore temporibus vel ea accusantium omnis possimus? Est
+          magnam dignissimos explicabo quidem itaque repellat dolor, corporis
+          dolore debitis quas at corrupti enim voluptas optio? Soluta quam
+          voluptate laboriosam, quisquam assumenda magni inventore asperiores
+          quis quia ut, ab voluptas quaerat recusandae maxime repudiandae magnam
+          rerum quo provident tempore adipisci in officia! Eligendi, qui!
+        </p>
+        <div class="mt-7 flex w-full gap-5 justify-center">
+          <button
+            class="px-6 py-2 md:px-6 md:py-4 border rounded-lg shadow-md shadow-blue-500/50 bg-transparent border-transparent text-blue-400 font-bold"
+          >
+            Boton 1
+          </button>
+
+          <button
+            class="px-6 py-2md:px-6 md:py-4 border border-transparent rounded-lg shadow-md shadow-blue-500/50 bg-blue-400 text-slate-500 font-bold"
+          >
+            Boton 2
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
